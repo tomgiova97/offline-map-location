@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "offline-map-location",
+    "name": "Spray Maps",
     "slug": "offline-map-location",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/spray-maps-logo-resized.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/spray-maps-logo-resized.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/spray-maps-logo-resized.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config" : {
+        "googleMaps": {
+          "apiKey": "API_KEY"
+        }
+      },
+      "package": "com.tomgiova97.offlinemaplocation"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/spray-maps-logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "91d5828e-60a2-4cde-8700-1cce6722bcb9"
+      }
     }
   }
 }
